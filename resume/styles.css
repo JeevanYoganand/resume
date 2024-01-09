@@ -1,0 +1,14 @@
+.header{
+    border: 7px double gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    height: fit-content;
+}
+
+.header > div{
+    align-items: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+}
